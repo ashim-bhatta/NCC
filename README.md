@@ -38,10 +38,10 @@ By following the Atomic Design pattern, the NCC project promotes code reusabilit
 To run the NCC project locally, please follow these steps:
 
 1. Clone the repository to your local machine using the following command:
-   `git clone https://github.com/your-username/ncc.git`
+   `git clone https://github.com/ashim-bhatta/NCC.git`
 
 2. Navigate to the project directory:
-   `cd ncc`
+   `cd NCC`
 
 3. Install the project dependencies using npm or yarn:
    `yarn` or `yarn install`

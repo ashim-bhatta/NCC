@@ -1,0 +1,54 @@
+.modal {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: none;
+  place-items: center;
+}
+
+.modal.open {
+  display: grid;
+}
+
+.modalContainer {
+  width: clamp(300px, 60vw, 500px);
+  min-height: 300px;
+  padding: 30px clamp(10px, 2vw, 30px);
+  background-color: white;
+  border-radius: 5px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  cursor: pointer;
+}
+
+.modalContainer main {
+  margin-top: 20px;
+  flex: 1;
+}
+
+.modalContainer h4 {
+  font-size: clamp(16px, 2vw, 20px);
+  font-weight: 600;
+  text-transform: capitalize;
+  padding-block: 5px;
+  margin-bottom: 10px;
+}
+
+.modalContainer span {
+  font-size: clamp(12px, 2vw, 16px);
+  color: grey;
+  display: block;
+  margin-top: 5px;
+}
+
+.modelFooter {
+  display: flex;
+  justify-content: flex-end;
+}

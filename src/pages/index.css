@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --min-background: #edf6f9;
+  --secondary-background: #dbf0f77f;
+  --accent-color: #83c5be; /* ffddd2 */
+  --main-text-color: #374259;
+  --main-padding: clamp(15px, 7vw, 60px);
+}
+
+@media only screen and (min-width: 1080px) {
+  :root {
+    --main-padding: clamp(30px, 20vw, 180px);
+  }
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  background: var(--min-background);
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+.title {
+  font-size: clamp(20px, 1.8vw, 34px);
+  color: var(--accent-color);
+}
+
+.section {
+  width: 100%;
+  min-height: calc(100dvh - 100px) !important;
+  padding: 15px var(--main-padding);
+}

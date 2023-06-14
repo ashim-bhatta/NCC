@@ -1,34 +1,56 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# NCC (Neptune Currency Converter)
 
-## Getting Started
+Welcome to the NCC (Neptune Currency Converter) project! This repository contains the code for a currency conversion application built using Next.js. The NCC allows users to convert between different currencies quickly and easily.
 
-First, run the development server:
+![NCC Screenshot](./screenshot.png)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+![NCC Screenshot](./screenshot.png)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Table of Contents
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- [Introduction](#introduction)
+- [Atomic Design Pattern](#atomic-design-pattern)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Introduction
 
-## Learn More
+The NCC is a currency converter application designed to provide a simple and intuitive user experience for converting currencies.
 
-To learn more about Next.js, take a look at the following resources:
+## Atomic Design Pattern
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The NCC project follows the Atomic Design pattern, which is a methodology for designing and building user interfaces. It emphasizes creating reusable and modular components that can be combined to form larger, more complex interfaces.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Atomic Design consists of five distinct stages:
 
-## Deploy on Vercel
+1. **Atoms**: These are the smallest building blocks of the application, such as buttons, inputs, or icons. Atoms are simple and independent elements that cannot be broken down any further.
+2. **Molecules**: Molecules are combinations of atoms that form more complex components. For example, a search bar (molecule) could consist of an input field (atom) and a search button (atom).
+3. **Organisms**: Organisms are groups of molecules and atoms that work together to form a section of the user interface. They represent specific sections or features of the application, such as a currency conversion form.
+4. **Templates**: Templates define the overall structure and layout of a page or screen. They arrange organisms and establish the overall visual hierarchy.
+5. **Pages**: Pages are the final step in the Atomic Design pattern. They are specific instances of templates that include actual content and represent the full user interface.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+By following the Atomic Design pattern, the NCC project promotes code reusability, maintainability, and scalability. It allows for a consistent and modular approach to building the user interface.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Installation
+
+To run the NCC project locally, please follow these steps:
+
+1. Clone the repository to your local machine using the following command:
+   `git clone https://github.com/your-username/ncc.git`
+
+2. Navigate to the project directory:
+   `cd ncc`
+
+3. Install the project dependencies using npm or yarn:
+   `yarn` or `yarn install`
+
+## Usage
+
+To run the NCC project locally, execute the following command:
+`npm run dev`
+
+This command starts the development server and allows you to access the NCC application in your browser. Simply open your preferred browser and visit `http://localhost:3000` to use the application.
+
+## Hosted Version

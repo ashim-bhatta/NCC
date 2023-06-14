@@ -1,0 +1,40 @@
+.conveeterCard {
+  width: fit-content;
+  /* height: 200px; */
+  background-color: transparent;
+  border-radius: 10px;
+  box-shadow: 0.1px 0.1px 10px 1px rgba(138, 135, 135, 0.201);
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.arrowIcons {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background-color: var(--accent-color);
+  margin-left: -5px;
+}
+.arrowIcons > * {
+  transform: rotate(90deg);
+  color: #fff;
+}
+
+@media only screen and (min-width: 1080px) {
+  .conveeterCard {
+    flex-direction: row;
+  }
+  .arrowIcons > * {
+    transform: rotate(0deg);
+  }
+}

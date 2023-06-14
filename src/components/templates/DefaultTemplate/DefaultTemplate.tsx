@@ -15,4 +15,5 @@ const withDefaultTemplate = (WrappedComponent: ComponentType) => {
   );
 };
 
+withDefaultTemplate.displayName = 'DefaultTemplate';
 export default withDefaultTemplate;

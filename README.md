@@ -2,9 +2,9 @@
 
 Welcome to the NCC (Neptune Currency Converter) project! This repository contains the code for a currency conversion application built using Next.js. The NCC allows users to convert between different currencies quickly and easily.
 
-![NCC Screenshot](./screenshot.png)
+![NCC Screenshot](./src/assets/Screenshot-1.png)
 
-![NCC Screenshot](./screenshot.png)
+![NCC Screenshot](./src/assets/Screenshot-2.png)
 
 ## Table of Contents
 
@@ -12,8 +12,6 @@ Welcome to the NCC (Neptune Currency Converter) project! This repository contain
 - [Atomic Design Pattern](#atomic-design-pattern)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 

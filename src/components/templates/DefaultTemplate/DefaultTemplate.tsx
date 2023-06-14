@@ -1,3 +1,4 @@
+import React from 'react';
 import { ComponentType } from 'react';
 import Navbar from '../../organisms/Navbar/Navbar';
 import Footer from '../../organisms/Footer/Footer';

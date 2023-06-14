@@ -47,7 +47,7 @@ To run the NCC project locally, please follow these steps:
 ## Usage
 
 To run the NCC project locally, execute the following command:
-`npm run dev`
+`yarn dev` or `npm run dev`
 
 This command starts the development server and allows you to access the NCC application in your browser. Simply open your preferred browser and visit `http://localhost:3000` to use the application.
 

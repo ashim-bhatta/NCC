@@ -1,12 +1,12 @@
 type PropsType = {
-  value: string | number;
+  value: string | number | undefined;
   name: string;
 };
 
 const WalletSingleItem = ({ value, name }: PropsType) => {
   return (
     <h4>
-      name: <span>{value}</span>
+      {name}: <span>{value}</span>
     </h4>
   );
 };
